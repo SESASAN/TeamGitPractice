@@ -11,4 +11,10 @@ public class StatusController : ControllerBase
     {
         return Ok(new { status = "Running" });
     }
+
+    [HttpGet("team")]
+    public IActionResult GetTeamStatus()
+    {
+        return Ok(new { team = "Deploy Enjoyers", status = "Ready" });
+    }
 }

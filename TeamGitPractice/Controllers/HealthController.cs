@@ -2,11 +2,20 @@
 
 namespace TeamGitPractice.Controllers
 {
-    public class HealthController : Controller
+    [ApiController]
+    [Route("api/[controller]")]
+    public class HealthController : ControllerBase
     {
-        public IActionResult Index()
+        [HttpGet]
+        public IActionResult GetHealth()
         {
-            return View();
+            return Ok(new { healthy = true });
+        }
+
+        [HttpGet("time")]
+        public IActionResult GetTime()
+        {
+            return Ok(new { utcTime = DateTime.UtcNow });
         }
     }
 }

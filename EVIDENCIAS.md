@@ -5,7 +5,7 @@
 | Integrante | Nombre completo | Rama personal | Commit consola | Commit Visual Studio | Pull Request | Reviewer |
 |---|---|---|---|---|---|---|
 | 1 | Sebastián Jesús Pérez Araujo | `sebastian-perez` | `21c770a` | `4ec8931f` | #2 | Samuel Quiroz Rincón |
-| 2 | Kevin Daniel Mendoza Castillo | `kevin-mendoza` | | | | |
+| 2 | Kevin Daniel Mendoza Castillo | `kevin-mendoza` | `b6e6d19` | `a239770` | #5 | Sebastián Jesús Pérez Araujo |
 | 3 | Juan Felipe Torres Torres | `juan-torres` | | | | |
 | 4 | Nathalie Gabriela Miranda Rejón | `nathalie-miranda` | `ba82de4` | `13802a7` | #3 | Juan Felipe Torres Torres |
 | 5 | Samuel Quiroz Rincón | `samuel-quiroz` | `fa346b1` | `aa88fcf` | #4 | Nathalie Gabriela Miranda Rejón |
@@ -37,4 +37,4 @@ Se modificó README.md nuevamente, se agregó a staging con git add, se retiró 
 
 ## Colaboradores
 
-- [ ] Confirmación de que `orlapez` fue agregado como colaborador del repositorio.
+- [ ] Confirmación de que `oalarconpe` fue agregado como colaborador del repositorio.

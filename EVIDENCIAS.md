@@ -7,7 +7,7 @@
 | 1 | Sebastián Jesús Pérez Araujo | `sebastian-perez` | `21c770a` | `4ec8931f` | #2 | Samuel Quiroz Rincón |
 | 2 | Kevin Daniel Mendoza Castillo | `kevin-mendoza` | | | | |
 | 3 | Juan Felipe Torres Torres | `juan-torres` | | | | |
-| 4 | Nathalie Gabriela Miranda Rejón | `nathalie-miranda` | | | | |
+| 4 | Nathalie Gabriela Miranda Rejón | `nathalie-miranda` | `ba82de4` | `13802a7` | #3 | Juan Felipe Torres Torres |
 | 5 | Samuel Quiroz Rincón | `samuel-quiroz` | | | | |
 
 ## Resolución de conflicto (Fase 6)
@@ -21,7 +21,10 @@
 ## Recuperación de cambios (Fase 7)
 
 - Evidencia de `git restore` (Integrante 4 - Nathalie):
+Se modificó README.md agregando una línea de prueba, se verificó con git diff README.md,
+y se descartó el cambio con git restore README.md. git status confirmó árbol de trabajo limpio.
 - Evidencia de `git restore --staged` (Integrante 4 - Nathalie):
+Se modificó README.md nuevamente, se agregó a staging con git add, se retiró congit restore --staged README.md (quedó como "modified, not staged"), y finalmente se descartó con git restore README.md.
 - Hash del commit temporal `test: add temporary note` (Integrante 5 - Samuel):
 - Hash del commit generado por `git revert` (Integrante 5 - Samuel):
 

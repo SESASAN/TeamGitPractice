@@ -1,0 +1,18 @@
+## .NET build artifacts - must not be copied into the image;
+## they contain Windows-absolute-path restore state that breaks
+## dotnet publish inside the Linux build stage.
+**/bin/
+**/obj/
+**/.vs/
+**/*.user
+
+## VCS / editor
+.git/
+.gitignore
+.idea/
+.vscode/
+
+## Docs and evidence (not needed inside the image)
+*.md
+evidencias/
+k8s/

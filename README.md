@@ -377,7 +377,7 @@ Se incluyen evidencias de:
 
 Video de demostración de la práctica:
 
-**[Agregar aquí el enlace de YouTube]**
+[![Video de la Práctica 2 - Deploy Enjoyers](https://img.youtube.com/vi/rWFLcsdcEJ4/maxresdefault.jpg)](https://youtu.be/rWFLcsdcEJ4)
 
 El video presenta el proceso de ejecución de la API, construcción de la imagen Docker, ejecución del contenedor y posterior despliegue y validación en Kubernetes.
 
